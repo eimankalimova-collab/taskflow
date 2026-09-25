@@ -1,0 +1,360 @@
+{
+  "app": "taskflow",
+  "format": 1,
+  "exportedAt": 1790337843990,
+  "projects": [
+    {
+      "id": "p-demo-3",
+      "name": "Домашние дела",
+      "description": null,
+      "color": 4294661639,
+      "created_at": 1790197426727
+    },
+    {
+      "id": "p-demo-1",
+      "name": "ПУ-68",
+      "description": null,
+      "color": 4282025727,
+      "created_at": 1790197426727
+    },
+    {
+      "id": "p-demo-2",
+      "name": "БУ-2",
+      "description": null,
+      "color": 4286789868,
+      "created_at": 1790197426727
+    },
+    {
+      "id": "0a5ab953-146f-486d-ae97-d32d513baf98",
+      "name": "ИПДММ",
+      "description": null,
+      "color": 4282025727,
+      "created_at": 1790316980875
+    },
+    {
+      "id": "1982301f-7f97-42bd-a48e-a7294e186ae9",
+      "name": "ЭБМК",
+      "description": null,
+      "color": 4282025727,
+      "created_at": 1790316997787
+    }
+  ],
+  "team_members": [
+    {
+      "id": "m-1",
+      "name": "Юлия Кузнецова",
+      "color": 4293467788
+    },
+    {
+      "id": "m-3",
+      "name": "Елизавета Иманкалимова",
+      "color": 4286789868
+    },
+    {
+      "id": "m-2",
+      "name": "Тарас Зиренко",
+      "color": 4282025727
+    },
+    {
+      "id": "c9ce0d36-ee90-4918-911b-ad6f480615e7",
+      "name": "Алина Морщинина",
+      "color": 4293467788
+    },
+    {
+      "id": "aeb9901f-9823-4db5-a32b-b0dddbc50394",
+      "name": "Илья Анисимов",
+      "color": 4282025727
+    }
+  ],
+  "tasks": [
+    {
+      "id": "59e6543b-a8f8-47d0-9f71-e79b03932f82",
+      "project_id": "1982301f-7f97-42bd-a48e-a7294e186ae9",
+      "title": "ЭБМК: Откорректировать Описание проекта по замечниям от Тараса",
+      "description": "Зависит от ответа МИЭА",
+      "assignee": null,
+      "assignee_id": null,
+      "status": "planned",
+      "priority": "medium",
+      "start_date": null,
+      "due_date": null,
+      "is_on_calendar": 0,
+      "created_at": 1790317950725,
+      "updated_at": 1790318313599
+    },
+    {
+      "id": "df7a7286-0b1b-4ab1-8906-b7b9910a9b61",
+      "project_id": "1982301f-7f97-42bd-a48e-a7294e186ae9",
+      "title": "ЭБМК: Для данных тассиремости указать корректные входные данные",
+      "description": "Корректная ссылка, корректаяя версия (ревизия)",
+      "assignee": null,
+      "assignee_id": null,
+      "status": "planned",
+      "priority": "medium",
+      "start_date": null,
+      "due_date": null,
+      "is_on_calendar": 1,
+      "created_at": 1790318796536,
+      "updated_at": 1790320477261
+    },
+    {
+      "id": "4b81d238-61d3-48fe-bd03-a29550d1a669",
+      "project_id": "p-demo-2",
+      "title": "БУ-2: Узнать у Тараса и Ильи про 2 требования",
+      "description": "1. Спросить у ребят\n2. Отметить в Юлиной таблице",
+      "assignee": "Юлия Кузнецова",
+      "assignee_id": "m-1",
+      "status": "in_progress",
+      "priority": "medium",
+      "start_date": null,
+      "due_date": 1790283600000,
+      "is_on_calendar": 0,
+      "created_at": 1790320752836,
+      "updated_at": 1790320752836
+    },
+    {
+      "id": "709a1d18-2c9b-4613-b8d2-1be1b047a2c8",
+      "project_id": "1982301f-7f97-42bd-a48e-a7294e186ae9",
+      "title": "ЭБМК: В Требования к АЧ добавить функции АЧ из плана сертификации (таблица 4).",
+      "description": null,
+      "assignee": "Елизавета Иманкалимова",
+      "assignee_id": "m-3",
+      "status": "planned",
+      "priority": "medium",
+      "start_date": 1790283600000,
+      "due_date": 1790283600000,
+      "is_on_calendar": 0,
+      "created_at": 1790318594810,
+      "updated_at": 1790321400078
+    },
+    {
+      "id": "9fded5aa-d94c-4aea-a86c-fb57176b4e0c",
+      "project_id": "1982301f-7f97-42bd-a48e-a7294e186ae9",
+      "title": "ЭБМК: Для описаия проекта ПЛИС и Данных трассируемости получить ответ от МИЭА по названию модулей и применению требований в модулях",
+      "description": "1. Отправить вопрос\n2.Получть ответ\n3. Откорректировать Описание проекта ПЛИС если нужно\n4. Откорректировать Данные трассируемости",
+      "assignee": null,
+      "assignee_id": null,
+      "status": "in_progress",
+      "priority": "medium",
+      "start_date": null,
+      "due_date": null,
+      "is_on_calendar": 0,
+      "created_at": 1790321862038,
+      "updated_at": 1790321862038
+    },
+    {
+      "id": "80a4d5be-d6af-4543-aa3d-4277c112bd9d",
+      "project_id": "p-demo-2",
+      "title": "БУ-2: Откорректировать Требования по замечаниям ФИ",
+      "description": "1.Откорректировать требования",
+      "assignee": "Елизавета Иманкалимова",
+      "assignee_id": "m-3",
+      "status": "planned",
+      "priority": "medium",
+      "start_date": null,
+      "due_date": 1790542800000,
+      "is_on_calendar": 0,
+      "created_at": 1790322452484,
+      "updated_at": 1790322452484
+    },
+    {
+      "id": "7529bbce-cabf-4b4f-9a95-fe64d8c10cd8",
+      "project_id": "p-demo-2",
+      "title": "БУ-2: Получить согласование итоговой конфигурации по стендам",
+      "description": "1. Отправить итог конфигурацию +\n2.Получить подтверждение от РедЛаб на сборку и дальнейшую работу\n3. Проконтролировать ответ МИЭА на вопрос РедЛаба (от этого зависит ПО сенда)\n4. Отправить в Таганрог итоговую конфигурацию стенда для сборки",
+      "assignee": null,
+      "assignee_id": null,
+      "status": "in_progress",
+      "priority": "medium",
+      "start_date": null,
+      "due_date": 1791320400000,
+      "is_on_calendar": 1,
+      "created_at": 1790322749207,
+      "updated_at": 1790322749207
+    },
+    {
+      "id": "91e23705-40c3-452c-a22c-5311b4a4c36a",
+      "project_id": "p-demo-2",
+      "title": "БУ-2: (Юля) Дополнительная корректировка по таблице Юли (добаление изменений по СП #46585 на Спецификацию)",
+      "description": "1. Удалиить ТАЧ и удалить связь к системе: БУ.ТЗ.0341 - ТА.БУ-2.0198\n2. Рассмотреть удаление требования БУ.ТЗ.0815 - ТА.БУ-2.0359 и его связи. Если нужно добавить в сообщение о Неприменимых требованиях.\n3. Рассмотреть и иправить некорректные связи в DOORS: БУ.ТЗ.0036-38 - ТА.БУ-2.0238 или ТА.БУ-2.0238 -  БУ.ТЗ.0672. Связать ТкС с разделом 1.7.3.",
+      "assignee": "Елизавета Иманкалимова",
+      "assignee_id": "m-3",
+      "status": "planned",
+      "priority": "medium",
+      "start_date": null,
+      "due_date": 1790456400000,
+      "is_on_calendar": 0,
+      "created_at": 1790323974753,
+      "updated_at": 1790325394882
+    },
+    {
+      "id": "f3d7175e-8187-4b91-b080-4de17109c0ab",
+      "project_id": "p-demo-2",
+      "title": "БУ-2:  (Юля) Получть ответ от МИЭА по 158 требованиям и внести изменения",
+      "description": "1. Отправить запрос +\n2. Получить ответ по всем трем частям\n3. Откоррректировать Требования к АЧ\n4. Запросить и получить ответ от МИЭА по поводу Данных проектирования для новых требований\n5. Внести трассы данных проектироания и Требований к АЧ в Данные трассируемости",
+      "assignee": null,
+      "assignee_id": null,
+      "status": "planned",
+      "priority": "medium",
+      "start_date": null,
+      "due_date": null,
+      "is_on_calendar": 0,
+      "created_at": 1790322355258,
+      "updated_at": 1790325404750
+    },
+    {
+      "id": "7a01d63c-36d9-4914-9f5b-fb4a1db7d877",
+      "project_id": "p-demo-2",
+      "title": "БУ-2:  (Юля) Вопросы к МИЭА по требованиям",
+      "description": "1. Написать письмо о требованиях ТА.БУ-2.0514, 516, 518, 526-527, которое связано с системым требованием ТЗ 849, имеющим распределение на компоненты Не применим. Указать что в системе нужно исправить распределение.",
+      "assignee": null,
+      "assignee_id": null,
+      "status": "planned",
+      "priority": "medium",
+      "start_date": null,
+      "due_date": null,
+      "is_on_calendar": 0,
+      "created_at": 1790325341648,
+      "updated_at": 1790325416953
+    },
+    {
+      "id": "c806a783-3673-4c0c-b1ec-9d1e72e02989",
+      "project_id": "p-demo-2",
+      "title": "БУ-2:  (Юля) Получить от МИЭА ответ по требованиям Не применимо и внести изменения",
+      "description": "1. Задать вопрос +\n2. Получить ответ \n3. Внести изменения в Требования к АЧ",
+      "assignee": "Елизавета Иманкалимова",
+      "assignee_id": "m-3",
+      "status": "in_progress",
+      "priority": "medium",
+      "start_date": null,
+      "due_date": null,
+      "is_on_calendar": 0,
+      "created_at": 1790320841701,
+      "updated_at": 1790325449260
+    },
+    {
+      "id": "9a909192-f323-43bf-a041-60f9221cee39",
+      "project_id": "p-demo-1",
+      "title": "ПУ-68: Откорректировать требования по замечаниям ФИ",
+      "description": null,
+      "assignee": "Елизавета Иманкалимова",
+      "assignee_id": "m-3",
+      "status": "in_progress",
+      "priority": "medium",
+      "start_date": null,
+      "due_date": 1790283600000,
+      "is_on_calendar": 0,
+      "created_at": 1790325968162,
+      "updated_at": 1790325968162
+    },
+    {
+      "id": "3af08f2d-9bc1-4dd1-9d71-3b47d1a4903b",
+      "project_id": "p-demo-2",
+      "title": "БУ-2: Откорректировать СП про некооректный перенос SSJ",
+      "description": "1. Создать новое описание СП.",
+      "assignee": "Елизавета Иманкалимова",
+      "assignee_id": "m-3",
+      "status": "planned",
+      "priority": "medium",
+      "start_date": null,
+      "due_date": 1790283600000,
+      "is_on_calendar": 0,
+      "created_at": 1790326318786,
+      "updated_at": 1790326318786
+    },
+    {
+      "id": "b914199a-d6d3-4384-b923-091837910931",
+      "project_id": "p-demo-2",
+      "title": "БУ-2: Подумать над подтверждением переноса",
+      "description": "Либо использовать равнение в DOORS по Олиному лгоритму, либо вручую подтвердить",
+      "assignee": null,
+      "assignee_id": null,
+      "status": "planned",
+      "priority": "medium",
+      "start_date": null,
+      "due_date": null,
+      "is_on_calendar": 0,
+      "created_at": 1790326425638,
+      "updated_at": 1790326425638
+    },
+    {
+      "id": "c580f5ee-1322-4e7d-b14b-ab7913501cf0",
+      "project_id": "p-demo-2",
+      "title": "БУ-2: Аналировать текущую версию 2.0 Описаний проекта",
+      "description": "Выполнить для трех описаний",
+      "assignee": null,
+      "assignee_id": null,
+      "status": "planned",
+      "priority": "medium",
+      "start_date": null,
+      "due_date": null,
+      "is_on_calendar": 0,
+      "created_at": 1790326502351,
+      "updated_at": 1790326502351
+    },
+    {
+      "id": "b4da2a52-b76f-4465-99a2-51d2a7d247c0",
+      "project_id": "p-demo-2",
+      "title": "БУ-2: Перенести из SSJ модули в нужную папку сохранив одинаковое название с анулированными.",
+      "description": "1. Перенести из SSJ модули в нужную папку сохранив одинаковое название с анулированными.\n2. Проставить связи с ТкС БУ-2",
+      "assignee": null,
+      "assignee_id": null,
+      "status": "planned",
+      "priority": "medium",
+      "start_date": null,
+      "due_date": null,
+      "is_on_calendar": 0,
+      "created_at": 1790326844724,
+      "updated_at": 1790326844724
+    },
+    {
+      "id": "d637d70a-c20e-403a-b85e-c7430f3d94aa",
+      "project_id": "p-demo-2",
+      "title": "БУ-2: Отвязать все связи в систему из Анулированных описаний проекта",
+      "description": null,
+      "assignee": null,
+      "assignee_id": null,
+      "status": "planned",
+      "priority": "medium",
+      "start_date": null,
+      "due_date": null,
+      "is_on_calendar": 0,
+      "created_at": 1790326885996,
+      "updated_at": 1790326885996
+    },
+    {
+      "id": "9d19a11e-710d-4762-af14-271e80933eee",
+      "project_id": "p-demo-2",
+      "title": "БУ-2: Описание проекта ПЛИС ARINC 1 связь",
+      "description": "ARINC-1.ОП.0482 (анулрованное) не имеест связи",
+      "assignee": null,
+      "assignee_id": null,
+      "status": "planned",
+      "priority": "medium",
+      "start_date": null,
+      "due_date": null,
+      "is_on_calendar": 0,
+      "created_at": 1790328261831,
+      "updated_at": 1790328261831
+    }
+  ],
+  "task_subtasks": [],
+  "task_comments": [],
+  "task_dependencies": [
+    {
+      "id": "df7a7286-0b1b-4ab1-8906-b7b9910a9b61::59e6543b-a8f8-47d0-9f71-e79b03932f82",
+      "task_id": "df7a7286-0b1b-4ab1-8906-b7b9910a9b61",
+      "depends_on": "59e6543b-a8f8-47d0-9f71-e79b03932f82"
+    },
+    {
+      "id": "b4da2a52-b76f-4465-99a2-51d2a7d247c0::c580f5ee-1322-4e7d-b14b-ab7913501cf0",
+      "task_id": "b4da2a52-b76f-4465-99a2-51d2a7d247c0",
+      "depends_on": "c580f5ee-1322-4e7d-b14b-ab7913501cf0"
+    },
+    {
+      "id": "d637d70a-c20e-403a-b85e-c7430f3d94aa::b4da2a52-b76f-4465-99a2-51d2a7d247c0",
+      "task_id": "d637d70a-c20e-403a-b85e-c7430f3d94aa",
+      "depends_on": "b4da2a52-b76f-4465-99a2-51d2a7d247c0"
+    }
+  ]
+}
